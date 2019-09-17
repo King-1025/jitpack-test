@@ -11,7 +11,7 @@ project.afterEvaluate {
             mavenPublish(MavenPublication) {
                 if (isAndroidProject()) {
                       //artifact bundleReleaseAar
-                      artifact "build/outputs/aar/app_dev_v1.0.0_1_now.aar"
+                      artifact "../release/app_dev_v1.0.0_1_now.aar"
 //                      artifact androidJavadocsJar
 //                      artifact androidSourcesJar
                 } else {
