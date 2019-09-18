@@ -9,4 +9,4 @@
 
 rootProject.name = 'jitpack-test'
 
-include 'lingin'
+include 'kmax'

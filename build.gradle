@@ -5,8 +5,8 @@ buildscript {
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:3.4.+'
-        /* Realm数据库支持 */
         classpath "io.realm:realm-gradle-plugin:5.11.0"
+	classpath 'com.github.dcendents:android-maven-gradle-plugin:2.1'
     }
 }
 
