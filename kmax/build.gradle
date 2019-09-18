@@ -1,7 +1,6 @@
 plugins {
 	id 'com.android.library'
 	id 'realm-android'
-	id 'com.github.dcendents.android-maven' 
 }
 
 android {
@@ -118,4 +117,4 @@ android.libraryVariants.all { variant ->
         }
 }
 
-//apply from: '../gradle/gradle-mavenizer.gradle'
+apply from: '../gradle/gradle-mavenizer.gradle'
